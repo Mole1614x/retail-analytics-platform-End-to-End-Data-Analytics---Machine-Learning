@@ -1,54 +1,13 @@
-# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.Python
-*.egg-info/
-dist/
-build/
-
-# Virtual environments
-venv/
-.env/
-.venv/
-reatil_sales/
-
-# Environment variables
-.env
-
-# macOS
 .DS_Store
-
-# Logs
-*.log
-logs/
+.env
+.venv/
+venv/
+reatil_sales/
 airflow/logs/
-
-# Database files
-*.db
-*.sqlite
-*.sqlite3
-
-# Docker volumes / temporary files
-tmp/
-temp/
-
-# Large datasets
-data/*.zip
-
-# Keep CSV dataset only if needed for project demo
-# If dataset is large, uncomment this:
-# data/*.csv
-
-# Spark output temporary files
-output/**/_SUCCESS
-output/**/.crc
-output/**/_temporary
-
-# Airflow
-airflow/plugins/__pycache__/
+airflow/__pycache__/
 airflow/dags/__pycache__/
-
-# Jupyter
-.ipynb_checkpoints/
+*.log
+Statistics/
+untitled folder/
