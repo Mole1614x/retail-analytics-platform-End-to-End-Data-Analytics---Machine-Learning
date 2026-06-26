@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+reatil_sales/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+airflow/logs/
+
+# Airflow
+airflow/plugins/__pycache__/
+
+# Models large/temp
+*.tmp
+*.temp
+
+# Docker/Postgres volumes
+postgres_data/
+airflow_db/
+
+# Spark/Hadoop temp
+*.crc
+_SUCCESS
+.part-*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+!docker/.env.airflow
